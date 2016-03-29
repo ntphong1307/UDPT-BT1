@@ -10,7 +10,7 @@ URL: **URL hosting của bài tập**
 
 Yêu cầu **GIT**:
 
-* [ ] Có sử dụng GIT.
+* [x] Có sử dụng GIT.
 * [ ] Sử dụng GIT trên 1 branch.
 * [ ] Sử dụng GIT theo Centralized Workflow.
 * [x] Sử dụng GIT theo Feature Branch Workflow.
@@ -19,15 +19,15 @@ Yêu cầu **GIT**:
 Yêu cầu **thiết kế**:
 
 * [ ] Thiết kế theo table.
-* [ ] Thiết kế với div.
-* [ ] Thiết kế nâng cao
-    * [ ] Navigation, header, footer, sidebar.
-    * [ ] Các hiệu ứng: hover, focus,...
-* [ ] Thiết kế chạy trên nhiều trình duyệt
-    * [ ] IE
-    * [ ] Firefox
-    * [ ] Chrome
-    * [ ] Icon, màu sắc,...
+* [x] Thiết kế với div.
+* [x] Thiết kế nâng cao
+    * [x] Navigation, header, footer, sidebar.
+    * [x] Các hiệu ứng: hover, focus,...
+* [x] Thiết kế chạy trên nhiều trình duyệt
+    * [x] IE
+    * [x] Firefox
+    * [x] Chrome
+    * [x] Icon, màu sắc,...
 * [ ] Thiết kế responsive
 
 Liệt kê các **yêu cầu nâng cao** đã thực hiện:
