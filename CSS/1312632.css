@@ -211,7 +211,30 @@ a {
 
 }
 
+.posts img {
+	height: 200px;
+	width: 250px;
+	float: left;
+}
 
+.posts h3, .posts p {
+	/*border: 1px solid black;*/
+	overflow: auto;
+	padding: 0 10px 5px 10px;
+}
+
+.posts h3 a, .posts p a {
+	color: black;
+	font-weight: bold;
+}
+
+.posts p a {
+	float: right;
+}
+
+.posts h3:hover, .posts p a:hover {
+	text-decoration: underline;
+}
 
 /*===========FOOTER==============*/
 #footer{
