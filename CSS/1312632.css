@@ -184,7 +184,32 @@ a {
 	padding: 10px 0 10px 30px;
 }
 
+/*==========My blog==========*/
+#blog {
+	/*border: 2px solid red;*/
+	position: relative;
+	top: 10px;
+}
 
+#blog h2 {
+	padding: 10px 0;
+	text-align: center;
+	font-weight: bold;
+	font-family: Segoe script;
+	font-size: 45px;
+	color: #fff;
+}
+
+.posts {
+	width: 510px;
+	height: 240px;
+	margin: 10px 24px 10px 0px;
+	padding: 10px;
+	border: 2px solid #cc6600;
+	display: inline-block;
+	overflow: auto;
+
+}
 
 
 
