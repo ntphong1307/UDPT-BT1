@@ -33,7 +33,6 @@ body {
 	background-attachment: fixed;
 }
 
-
 /*------------------Tạo menu ngang-----------------------------------------------*/
 /* Tham khảo cách làm menu ngang tại https://www.youtube.com/watch?v=a5BdPX05vRo */
 
@@ -51,7 +50,8 @@ a {
 .wrap{
 	max-width: 100%;
 	display: block;
-	height: 2em;
+	background-color: #33CCFF;
+	height: 63px;
 }
 
 /*Navigation bar ngang với class .topmenu*/
@@ -59,25 +59,22 @@ a {
 	max-width: 100%;
 	display: block;
 	margin: 0px auto;
-
 }
 
 .topmenu ul{
+  background: #33CCFF;
   display: block;
   max-width: 800px;
-  padding-top: 1em;
-  padding-bottom: 0;
   margin: 0px auto;
   list-style-type: none;
-
 }
 
 .topmenu>ul>li{
-
 	font-family: sans-serif;
 	font-weight: bold;
 	position: relative;
 	font-size: 20px;
+	padding: 20px;
 	float: left;
 	border-right: 1px solid #ffffff;
 	width: 25%;
@@ -96,7 +93,7 @@ a {
 
 .topmenu ul li a {
 
-	color: FFFFCC;
+	color: #FFFFCC;
 	font-weight: bold;
 }
 
@@ -107,10 +104,12 @@ a {
 	background: #02727F;
 	left: 0px;
 	z-index: 1;
-	padding-top: 0;
+	padding-top: 0px;
 	font-family: courier;
 	font-size: 20;
 	border: solid 1px white;
+	line-height: 3em;
+	top: 3em;
 }
 
 .topmenu>ul>li>ul>li {
@@ -128,10 +127,10 @@ a {
 
 }
 
-
 .clear{
 	clear: both;
 }
+/*=========================Kết thúc tạo menu ngang================*/
 
 .container {
 	max-width: 100%;
