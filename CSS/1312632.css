@@ -236,6 +236,38 @@ a {
 	text-decoration: underline;
 }
 
+
+/*--------cho các bài blog-------------*/
+
+
+.contentbl {
+	width: 970px;
+	background: #fff;
+	/*border: 1px double #000;*/
+	margin: 0 auto;
+	padding: 3em;
+}
+
+.contentbl p {
+	font-size: 18px;
+	padding: 20px 0px;
+	font-family: Time new Roman;
+	text-align: justify;
+	line-height: 30px;
+
+}
+
+.contentbl h2 {
+	font-family: Cambria;
+	font-size: 24;
+}
+
+.contentbl img {
+	width: 100%;
+	height: auto;
+}
+
+
 /*===========FOOTER==============*/
 #footer{
 	position: relative;
