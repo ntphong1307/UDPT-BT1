@@ -290,6 +290,17 @@ a {
 	float: right;
 }
 
+textarea:focus { 
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+ }
+
+ input:focus { 
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+ }
+
+
 
 /*===========FOOTER==============*/
 #footer{
