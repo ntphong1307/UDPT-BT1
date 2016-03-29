@@ -131,3 +131,238 @@ a {
 	clear: both;
 }
 /*=========================Kết thúc tạo menu ngang================*/
+
+/*---------------Tạo menu dọc cho trang web-------------*/
+
+#leftmenu{
+	position: fixed;
+	height: auto;
+	background-color: #33CCFF;
+	width: 220px;
+	left: 0px;
+}
+
+#leftmenu ul{
+  background-color: #33CCFF;
+  padding-left: 0px;
+  display: block;
+  width: 220px;
+  list-style-type: none;
+}
+
+#leftmenu ul li
+{
+  width: auto;
+  height: 2.5em;
+  line-height: 2.5em;
+  border-bottom: 1px solid #ffffff;
+  padding: 0 1em;
+  position: relative;
+  display: block;
+}
+
+#leftmenu .leftsub1{
+  background: #33ccff;
+  left: 220px;
+  height: auto;
+  display: none;
+  position: absolute;
+  top: 0px;
+}
+
+#leftmenu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: block;
+}
+
+#leftmenu ul li:hover {
+  background-color: #B8B8B8;
+  transition: all 0.3s;
+}
+
+
+#leftmenu ul li:hover .leftsub1{
+  display: block;
+}
+
+
+/*-----------------Bố cục cho phần nội dung, menu trái, footer--------------------*/ /*Code tham khảo tại: thachpham.com*/
+#container {
+	 padding-left: 220px;
+	 padding-top: 1em;
+	 width: 100%;
+	 left: 0px;
+}
+
+#content{
+	padding: 0em 4em 0em 1em;
+	z-index: 3;
+}
+
+.group_name {
+	margin: 2em 2em 1em 1em;
+	text-align: center;
+ 	background: #EFEFEF;
+ 	border: 1px solid #E8E8E8;
+ 	font-size: 0.9em;
+ 	overflow: auto;
+}
+
+#slogan{
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+	font-family: tahoma;
+}
+
+/*Định dạng cho các cột*/
+.row {
+	overflow: auto;
+	margin: 3em auto;
+	padding: 1em;
+	display: block;
+	max-width: 100%;
+}
+
+.row .col {
+	float: left;
+	width: 49%;
+	margin-right: 1em 0em 0em 0em;
+	text-align: justify;
+	display: block;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.row .col ul{
+	margin-top: 2em;
+	display: block;
+	max-width: 100%;
+}
+
+.row .col ul li{
+	list-style-type: disc;
+	height: 3em;
+	line-height: 1em;
+	color: white;
+	font-family: Lucida console;
+
+}
+
+.row .col:last-child {
+	margin-right: 0;
+	float: right;
+}
+
+.row .col img {
+	float: left;
+	margin: 1em 2em 2em 2em;
+	max-width: 100%;
+	display: block;
+}
+
+/*====================Nội dung=====================*/
+#container {
+	 padding-left: 220px;
+	 padding-top: 1em;
+	 width: 100%;
+	 left: 0px;
+}
+
+#content{
+	padding: 0em 4em 0em 1em;
+	z-index: 3;
+}
+
+.group_name {
+	margin: 2em 2em 1em 1em;
+	text-align: center;
+ 	background: #EFEFEF;
+ 	border: 1px solid #E8E8E8;
+ 	font-size: 0.9em;
+ 	overflow: auto;
+}
+
+#slogan{
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+	font-family: tahoma;
+}
+
+#logo{
+	font-family: courier;
+	margin: 0em 1em 1em 2em;
+	padding-right: 4em;
+	width: 100%;
+	vertical-align: middle;
+}
+#logo p {
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+
+#logo img {
+	display: block;
+	max-width: 100%;
+	margin: 1em auto;
+}
+
+/*Định dạng cho các cột*/
+.row {
+	overflow: auto;
+	margin: 3em auto;
+	padding: 1em;
+	display: block;
+	max-width: 100%;
+}
+
+.row .col {
+	float: left;
+	width: 49%;
+	margin-right: 1em 0em 0em 0em;
+	text-align: justify;
+	display: block;
+	max-width: 100%;
+}
+
+.row .col ul{
+	margin-top: 2em;
+	display: block;
+	max-width: 100%;
+}
+
+.row .col ul li{
+	list-style-type: disc;
+	height: 3em;
+	line-height: 1em;
+	color: white;
+	font-family: Lucida console;
+
+}
+
+.row .col:last-child {
+	margin-right: 0;
+	float: right;
+}
+
+.row .col img {
+	float: left;
+	margin: 1em 2em 2em 2em;
+	max-width: 100%;
+	display: block;
+}
+
+
+/*=====================Footer======================*/
+#footer{
+	font-size: 85%;
+ 	border-top: 2px solid #E6E6E6;
+ 	color: black;
+ 	padding: 2em;
+ 	text-align: left;
+}
+/*-----------KẾT THÚC FOOTER-------*/
