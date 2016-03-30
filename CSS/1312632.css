@@ -142,7 +142,7 @@ a {
 	text-align: center;
 	font-size: 40px;
 	padding: 1em;
-	color: #fff;
+	color: #1aff1a;
 }
 
 .content {
@@ -286,16 +286,18 @@ a {
 	border: 1px solid red;
 }
 
-.comment input {
+.comment button {
 	float: right;
+	font-weight: bold;
 }
 
 textarea:focus { 
     border-color: #719ECE;
     box-shadow: 0 0 10px #719ECE;
+    background-color: #ccffff;
  }
 
- input:focus { 
+ button:focus { 
     border-color: #719ECE;
     box-shadow: 0 0 10px #719ECE;
  }
