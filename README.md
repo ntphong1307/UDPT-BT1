@@ -4,7 +4,7 @@
 	1. 1312430 - Nguyễn Thanh Phong
 	2. 1312632 - Cao Tiến Trung
 
-URL: **URL hosting của bài tập**
+URL: **http://ntphong1307.github.io/UDPT-BT1**
 
 ## Yêu cầu
 
