@@ -1,4 +1,4 @@
-/*-------------Cài đặt mặc định------------------*/
+﻿/*-------------Cài đặt mặc định------------------*/
 *{	
 	margin: 0px; 
 	padding: 0px;
@@ -27,7 +27,7 @@ body {
   font-family: sans-serif;
   font-size: 15px;
   
-  	background-image: url(../image/background.jpg);
+  	background-Image: url(../Image/background.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;

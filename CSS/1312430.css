@@ -1,4 +1,4 @@
-/*
+﻿/*
 	FILE CSS CỦA NGUYỄN THANH PHONG
 	MSSV: 1312430;
 	NGÀY TẠO: 26/3/2016;
@@ -35,7 +35,7 @@ body {
   font-family: sans-serif;
   font-size: 15px;
   	margin: 0 2em;
-  	background-image: url(../image/background1.jpg);
+  	background-Image: url(../Image/background1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -264,7 +264,7 @@ span h2
 /*Bọc lại nội dung blog*/
 .content {
 	margin: 2em;
-    background-image: url(../1312430blog/notebook-background.jpg);
+    background-Image: url(../1312430blog/notebook-background.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 	text-align: justify;
